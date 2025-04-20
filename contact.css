@@ -22,8 +22,8 @@ body {
     overflow: hidden;
 }
 
-.hea {
-    content: '';
+.head::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@ body {
     height: 100%;
     background: rgba(10, 17, 40, 0.7);
     z-index: 1;
-}
+  }
 
 .nav, .content {
     position: relative;
